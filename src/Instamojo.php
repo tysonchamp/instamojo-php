@@ -342,7 +342,7 @@ class Instamojo {
             $params['min_modified_at'] = $min_modified_at;
         }
 
-        if (!is_null($$max_modified_at)) {
+        if (!is_null($max_modified_at)) {
             $params['max_modified_at'] = $max_modified_at;
         }
 
